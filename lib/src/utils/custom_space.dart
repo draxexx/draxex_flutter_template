@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomSpace {
+class DraxexSpace {
   final double small = 4, medium = 8, large = 16, large2x = 32, large3x = 48;
 
   // small

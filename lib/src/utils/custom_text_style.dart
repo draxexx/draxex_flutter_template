@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CustomTextStyle {
+class DraxexTextStyle {
   final BuildContext context;
 
-  CustomTextStyle(this.context);
+  DraxexTextStyle(this.context);
 
   TextStyle style({
     required double fontSize,

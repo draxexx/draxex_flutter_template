@@ -3,8 +3,8 @@ import 'package:draxex_flutter_template/src/utils/custom_linear_gradient.dart';
 import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 
-class CustomCard extends StatelessWidget {
-  const CustomCard({
+class DraxexCard extends StatelessWidget {
+  const DraxexCard({
     super.key,
     required this.child,
     this.width = .7,
@@ -22,9 +22,9 @@ class CustomCard extends StatelessWidget {
       width: SizeConfig.screenWidth! * width,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(borderRadius),
-        gradient: CustomLinearGradient(context: context).linearGradient(),
+        gradient: DraxexLinearGradient(context: context).linearGradient(),
         boxShadow: [
-          CustomBoxShadow().boxShadow(),
+          DraxexBoxShadow().boxShadow(),
         ],
       ),
       child: child,

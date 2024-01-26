@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomPadding {
+class DraxexPadding {
   final double small = 4;
   final double medium = 8;
   final double large = 16;

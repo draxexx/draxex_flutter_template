@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomBoxShadow {
+class DraxexBoxShadow {
   BoxShadow boxShadow({
     Color color = Colors.black26,
     double blurRadius = 10,

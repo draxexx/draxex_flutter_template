@@ -2,11 +2,11 @@ import 'package:draxex_flutter_template/src/constants/enums/size_enum.dart';
 import 'package:draxex_flutter_template/src/constants/enums/space_enum.dart';
 import 'package:flutter/material.dart';
 
-class CustomSpaceCopy {
+class DraxexSpaceCopy {
   final AppSize appSize;
   final Space spaceType;
 
-  CustomSpaceCopy(this.spaceType, this.appSize);
+  DraxexSpaceCopy(this.spaceType, this.appSize);
 
   EdgeInsets get space {
     final value = _size;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomRadius {
+class DraxexRadius {
   final double _small = 4;
   final double _medium = 8;
   final double _large = 16;

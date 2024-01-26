@@ -5,8 +5,8 @@ import 'package:draxex_flutter_template/src/utils/custom_space_copy.dart';
 import 'package:draxex_flutter_template/src/widgets/custom_icon.dart';
 import 'package:draxex_flutter_template/src/widgets/custom_text.dart';
 
-class CustomTextFormField extends StatelessWidget {
-  const CustomTextFormField({
+class DraxexTextFormField extends StatelessWidget {
+  const DraxexTextFormField({
     super.key,
     required this.label,
     this.controller,
@@ -38,7 +38,7 @@ class CustomTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: margin ?? CustomSpaceCopy(Space.vertical, AppSize.medium).space,
+      margin: margin ?? DraxexSpaceCopy(Space.vertical, AppSize.medium).space,
       child: TextFormField(
         controller: controller,
         initialValue: initialValue,
@@ -49,15 +49,15 @@ class CustomTextFormField extends StatelessWidget {
           }
         },
         decoration: InputDecoration(
-          label: CustomText(
+          label: DraxexText(
             text: label,
             style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                 color:
                     Theme.of(context).inputDecorationTheme.labelStyle!.color),
           ),
-          prefixIcon: prefixIcon != null ? CustomIcon(icon: prefixIcon!) : null,
+          prefixIcon: prefixIcon != null ? DraxexIcon(icon: prefixIcon!) : null,
           suffixIcon: suffixIcon != null
-              ? CustomIcon(icon: suffixIcon!, onTap: onTapSuffixIcon)
+              ? DraxexIcon(icon: suffixIcon!, onTap: onTapSuffixIcon)
               : null,
         ),
         keyboardType: keyboardType,

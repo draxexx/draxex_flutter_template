@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CustomLinearGradient {
+class DraxexLinearGradient {
   final BuildContext context;
 
-  CustomLinearGradient({required this.context});
+  DraxexLinearGradient({required this.context});
 
   LinearGradient linearGradient({
     AlignmentGeometry begin = Alignment.topCenter,

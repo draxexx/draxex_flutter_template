@@ -2,8 +2,8 @@ import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:draxex_flutter_template/src/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatelessWidget {
-  const CustomButton({
+class DraxexButton extends StatelessWidget {
+  const DraxexButton({
     super.key,
     required this.onPressed,
     required this.text,
@@ -28,7 +28,7 @@ class CustomButton extends StatelessWidget {
           return Size.fromHeight(getProportionateScreenWidth(btnHeight));
         }),
       ),
-      child: CustomText(
+      child: DraxexText(
         text: text,
         style: Theme.of(context).textTheme.bodyLarge!.copyWith(
               color: Theme.of(context).colorScheme.background,

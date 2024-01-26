@@ -4,10 +4,10 @@ import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class CustomBottomSheet {
+class DraxexBottomSheet {
   final BuildContext context;
 
-  CustomBottomSheet({required this.context});
+  DraxexBottomSheet({required this.context});
 
   void showCustomBottomSheet(Widget child,
       {bool ignoreSafeArea = true,
@@ -21,9 +21,9 @@ class CustomBottomSheet {
         ),
         child: Container(
           width: SizeConfig.screenWidth,
-          padding: CustomPadding().symmetricLarge2x,
+          padding: DraxexPadding().symmetricLarge2x,
           decoration: BoxDecoration(
-            borderRadius: CustomRadius().topLarge2x,
+            borderRadius: DraxexRadius().topLarge2x,
             color: backgroundColor ?? Theme.of(context).colorScheme.background,
           ),
           child: SingleChildScrollView(child: child),

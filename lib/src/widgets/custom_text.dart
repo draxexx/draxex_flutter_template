@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomText extends StatelessWidget {
-  const CustomText({
+class DraxexText extends StatelessWidget {
+  const DraxexText({
     super.key,
     required this.text,
     this.style,

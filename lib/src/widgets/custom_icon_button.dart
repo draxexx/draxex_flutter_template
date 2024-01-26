@@ -1,8 +1,8 @@
 import 'package:draxex_flutter_template/src/widgets/custom_icon.dart';
 import 'package:flutter/material.dart';
 
-class CustomIconButton extends StatelessWidget {
-  const CustomIconButton({
+class DraxexIconButton extends StatelessWidget {
+  const DraxexIconButton({
     super.key,
     required this.icon,
     required this.onTap,
@@ -17,7 +17,7 @@ class CustomIconButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: CustomIcon(
+      child: DraxexIcon(
         icon: icon,
         color: color,
       ),

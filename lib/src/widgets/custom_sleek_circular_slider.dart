@@ -2,8 +2,8 @@ import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
-class CustomSleekCircularSlider extends StatelessWidget {
-  const CustomSleekCircularSlider({
+class DraxexSleekCircularSlider extends StatelessWidget {
+  const DraxexSleekCircularSlider({
     super.key,
     required this.initialValue,
     this.min = 0,
