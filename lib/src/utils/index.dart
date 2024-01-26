@@ -6,3 +6,4 @@ export 'custom_radius.dart';
 export 'custom_space.dart';
 export 'custom_space_copy.dart';
 export 'size_config.dart';
+export 'custom_text_style.dart';
