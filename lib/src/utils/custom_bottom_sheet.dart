@@ -1,6 +1,6 @@
-import 'package:draxex_flutter_template/utils/custom_padding.dart';
-import 'package:draxex_flutter_template/utils/custom_radius.dart';
-import 'package:draxex_flutter_template/utils/size_config.dart';
+import 'package:draxex_flutter_template/src/utils/custom_padding.dart';
+import 'package:draxex_flutter_template/src/utils/custom_radius.dart';
+import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

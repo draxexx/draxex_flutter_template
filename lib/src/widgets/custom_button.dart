@@ -1,5 +1,5 @@
-import 'package:draxex_flutter_template/utils/size_config.dart';
-import 'package:draxex_flutter_template/widgets/custom_text.dart';
+import 'package:draxex_flutter_template/src/utils/size_config.dart';
+import 'package:draxex_flutter_template/src/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {

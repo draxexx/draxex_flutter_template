@@ -1,6 +1,6 @@
-import 'package:draxex_flutter_template/utils/custom_box_shadow.dart';
-import 'package:draxex_flutter_template/utils/custom_linear_gradient.dart';
-import 'package:draxex_flutter_template/utils/size_config.dart';
+import 'package:draxex_flutter_template/src/utils/custom_box_shadow.dart';
+import 'package:draxex_flutter_template/src/utils/custom_linear_gradient.dart';
+import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 
 class CustomCard extends StatelessWidget {

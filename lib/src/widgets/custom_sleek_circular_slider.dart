@@ -1,4 +1,4 @@
-import 'package:draxex_flutter_template/utils/size_config.dart';
+import 'package:draxex_flutter_template/src/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 

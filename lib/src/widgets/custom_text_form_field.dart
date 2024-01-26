@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:draxex_flutter_template/constants/enums/size_enum.dart';
-import 'package:draxex_flutter_template/constants/enums/space_enum.dart';
-import 'package:draxex_flutter_template/utils/custom_space_copy.dart';
-import 'package:draxex_flutter_template/widgets/custom_icon.dart';
-import 'package:draxex_flutter_template/widgets/custom_text.dart';
+import 'package:draxex_flutter_template/src/constants/enums/size_enum.dart';
+import 'package:draxex_flutter_template/src/constants/enums/space_enum.dart';
+import 'package:draxex_flutter_template/src/utils/custom_space_copy.dart';
+import 'package:draxex_flutter_template/src/widgets/custom_icon.dart';
+import 'package:draxex_flutter_template/src/widgets/custom_text.dart';
 
 class CustomTextFormField extends StatelessWidget {
   const CustomTextFormField({
@@ -38,7 +38,7 @@ class CustomTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: margin ?? CustomSpace(Space.vertical, AppSize.medium).space,
+      margin: margin ?? CustomSpaceCopy(Space.vertical, AppSize.medium).space,
       child: TextFormField(
         controller: controller,
         initialValue: initialValue,

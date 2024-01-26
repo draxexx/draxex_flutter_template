@@ -1,4 +1,4 @@
-import 'package:draxex_flutter_template/widgets/custom_icon.dart';
+import 'package:draxex_flutter_template/src/widgets/custom_icon.dart';
 import 'package:flutter/material.dart';
 
 class CustomIconButton extends StatelessWidget {
