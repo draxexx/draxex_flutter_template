@@ -1,7 +1,7 @@
 name: draxex_flutter_template
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: "none"
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
@@ -10,6 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # State
+  get: ^4.6.6
+
+  # Widgets
+  sleek_circular_slider: ^2.0.1
 
 dev_dependencies:
   flutter_test:
