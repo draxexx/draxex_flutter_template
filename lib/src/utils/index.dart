@@ -1,4 +1,3 @@
-export 'colors.dart';
 export 'custom_bottom_sheet.dart';
 export 'custom_box_shadow.dart';
 export 'custom_linear_gradient.dart';
